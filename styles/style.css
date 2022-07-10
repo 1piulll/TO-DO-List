@@ -1,0 +1,81 @@
+.simple-todo {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+.h2 {
+    font-size: 80px;
+    font-weight: 700;
+    display: inline-block;
+    background-color: rgb(18, 103, 65);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    border: 5px solid rgb(18, 95, 60);
+    box-shadow: inset 1px 3px 4px 2px  rgb(20, 90, 59);
+    color: rgba(245, 245, 245, 0.867);
+    margin-top: 100px;
+    text-shadow: 2px 1px rgba(149, 147, 147, 0.849);
+}
+
+.todo-list {
+    font-size: 30px;
+    margin-top: 50px;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    list-style-type: upper-roman;
+    line-height: 35px;
+    margin-left: 100px;
+    column-count: 2;
+    column-gap: 25px;
+}
+
+.todo-list > li {
+    page-break-inside: avoid;
+}
+
+.todo-input {
+    outline-color: rgb(18, 95, 60);
+    width: 400px;
+    height: 40px;
+    background-color: rgb(18, 103, 65);
+    border: 2px solid rgb(14, 79, 51);
+    padding-left: 10px;
+    color: rgba(245, 245, 245, 0.866);
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.todo-input::placeholder {
+    color: rgba(245, 245, 245, 0.859);
+    font-size: 16px;
+    font-family: Cairo, Arial;
+}
+
+.todo-input:focus {
+    outline: none;
+    color: rgba(245, 245, 245, 0.849);
+    font-size: 16px;
+    padding-left: 10px;
+    border: 2px solid rgba(245, 245, 245, 0.384);
+}
+
+.submit {
+    height: 46px;
+    background-color: rgb(18, 103, 65);
+    border: 2px solid rgb(14, 79, 51);
+    cursor: pointer;
+    font-weight: 700;
+    color: rgba(245, 245, 245, 0.868);
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: rgb(22, 127, 80);
+    border-color: rgb(18, 95, 60);
+}
+

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Cairo, Arial;
+    margin-bottom: 1000px;
+}
+
+html { 
+    background: url("/pictures/cork-board4.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
